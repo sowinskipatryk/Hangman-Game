@@ -1,3 +1,11 @@
+# This is a simple scraper used to get data in json 
+# format for the game.
+# I split the code into two parts - first part 
+# (commented out) scrapes the site for polish 
+# proverbs and saves the output in txt file while
+# the second part opens the saved txt file and
+#  converts it to json format.
+
 # import requests
 # from bs4 import BeautifulSoup
 import json
