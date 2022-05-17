@@ -95,7 +95,7 @@ function checkLetter(keyword, x)
 		document.getElementById(elementId).style.border = "3px solid #C00000";
 		document.getElementById(elementId).style.cursor = "default";
 		document.getElementById(elementId).setAttribute("onclick", ";");
-		document.getElementById("picture").innerHTML = '<img src="photos/'+hangmanState+'.png" alt="" />';
+		document.getElementById("picture").innerHTML = '<img src="'+hangmanState+'.png" alt="" />';
 		
 		hangmanState++;
 	}
