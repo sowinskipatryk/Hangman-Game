@@ -1,0 +1,86 @@
+body
+{	
+background-color: black;
+color: white;
+font-size: 28px;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+#container
+{
+width: 900px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#keyword
+{
+width: 900px;
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
+font-family: 'Red Hat Mono', monospace;
+font-size: 40px;
+}
+
+#picture
+{
+width: 450px;
+float: left;
+text-align: center;
+min-height: 429px;
+}
+
+#letters
+{
+width: 450px;
+float: left;
+text-align: center;
+min-height: 429px;
+}
+
+.letter
+{
+width: 30px;
+height: 30px;
+text-align: center;
+padding: 5px;
+margin: 5px;
+border: 3px solid gray;
+float: left;
+cursor: pointer;
+border-radius: 15px;
+}
+
+.letter:hover
+{
+background-color: #222222;
+color: white;
+border: 3px solid white;
+}
+
+#gameStatus
+{
+width: 900px;
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
+font-family: 'Red Hat Mono', monospace;
+font-size: 40px;
+}
+
+.reset
+{
+cursor: pointer;
+color: green;
+}
+
+.reset:hover
+{
+color: white;	
+}
